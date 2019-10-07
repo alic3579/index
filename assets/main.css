@@ -6,6 +6,16 @@ body {font-family: 'Anonymous Pro', monospace; margin: 20vh 3vw 5vh;
 #myName{color: 	#ffef00}
 .title{color: #00ff41}
 
+/**/
+
+#final a:link, #final a:visited{
+	color: pink;
+}
+
+#final a:hover, #final a:active { color: blue; }
+
+/**/
+
 a:link {color:white; text-align: left; text-decoration: none}
 a:visited {color:white}
 a:hover {color: blue; text-decoration: underline;}
@@ -24,7 +34,22 @@ article {margin: auto; width: 100%; display: grid;
 
 
 
+#square{
+	margin-top: -38px;
+	margin-left: 175px;
+	animation: squareMove 1s infinite;
+	animation-timing-function: steps(1, end);
+}
 
+@keyframes squareMove{
+	0% {opacity: 1}
+	/*40% {opacity: 1}*/
+	50% {opacity: 0}
+	/*70% {opacity: 1}*/
+	100% {opacity: 1}
+
+
+}
 
 
 
