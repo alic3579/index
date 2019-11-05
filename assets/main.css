@@ -8,11 +8,11 @@ body {font-family: 'Anonymous Pro', monospace; margin: 20vh 3vw 5vh;
 
 /**/
 
-#final a:link, #final a:visited{
+.final a:link, .final a:visited{
 	color: pink;
 }
 
-#final a:hover, #final a:active { color: blue; }
+.final a:hover, .final a:active { color: blue; }
 
 /**/
 
