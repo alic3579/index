@@ -37,8 +37,7 @@ article {
 
 
 #square{
-	margin-top: -38px;
-	margin-left: 175px;
+	display: inline-block;
 	animation: squareMove 1s infinite;
 	animation-timing-function: steps(1, end);
 }
